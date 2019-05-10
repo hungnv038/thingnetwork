@@ -40,7 +40,7 @@
 		27CA4BDAC38DEC3A3BEA9F63 /* Pods-ThingNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-ThingNetwork_Tests/Pods-ThingNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		329560C49BC2F6875FC980ED /* Pods-ThingNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-ThingNetwork_Example/Pods-ThingNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B05B773F0A8E2A5A4D6BE52 /* Pods-ThingNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-ThingNetwork_Example/Pods-ThingNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		51622FB5775DBAB743F89445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51622FB5775DBAB743F89445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ThingNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		703BBC4DF607B9ECEDFEEEE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		703BBC4DF607B9ECEDFEEEE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F35B0510E61CD28E441C172 /* Pods_ThingNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D087A0D55F4189F26630EE9C /* Pods-ThingNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ThingNetwork_Tests/Pods-ThingNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E325F5D7AEECADBD4F81A530 /* Pods_ThingNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E422B022F9A9AA4AF040570F /* ThingNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThingNetwork.podspec; path = ../ThingNetwork.podspec; sourceTree = "<group>"; };
+		E422B022F9A9AA4AF040570F /* ThingNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThingNetwork.podspec; path = ../ThingNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D087A0D55F4189F26630EE9C /* Pods-ThingNetwork_Tests.debug.xcconfig */,
 				27CA4BDAC38DEC3A3BEA9F63 /* Pods-ThingNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

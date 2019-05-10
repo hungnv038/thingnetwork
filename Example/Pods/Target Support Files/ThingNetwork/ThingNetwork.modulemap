@@ -1,0 +1,6 @@
+framework module ThingNetwork {
+  umbrella header "ThingNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

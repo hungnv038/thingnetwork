@@ -1,0 +1,16 @@
+PODS:
+  - ThingNetwork (0.1.0)
+
+DEPENDENCIES:
+  - ThingNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  ThingNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThingNetwork: 78ac7622a4c9bf80042d72dfa6010dc75c401550
+
+PODFILE CHECKSUM: 632dbd7ee2e7f996d5c5010e9c683b2221631824
+
+COCOAPODS: 1.6.1

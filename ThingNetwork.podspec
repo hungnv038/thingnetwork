@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ThingNetwork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ThingNetwork.'
+  s.summary          = 'A abstract layer of AFNetworking library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "When develop new ios project, we always need call api to server to get data, but always take time to find and develop classes to do it . This lib created to resolve that issues. The idea is make ready to use lib which can use immediatly when we need"
 
   s.homepage         = 'https://github.com/hungnv038/ThingNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -38,5 +36,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
 end
