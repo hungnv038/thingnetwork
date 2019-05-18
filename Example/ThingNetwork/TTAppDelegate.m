@@ -7,13 +7,20 @@
 //
 
 #import "TTAppDelegate.h"
+#import "TTHttpClient.h"
 
 @implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [TTHttpClient initDevUrl:@"https://dev.com/" StagingUrl:@"https://staging.com/" ProUrl:@"https://pro.com/"];
+    [TTHttpClient setEnvMode:STAGING];
+    
+    TTHttpClient * httpClient = TTHttpClient.sharedInstance;
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

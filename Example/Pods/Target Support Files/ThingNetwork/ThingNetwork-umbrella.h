@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TTHttpClient.h"
 
 FOUNDATION_EXPORT double ThingNetworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char ThingNetworkVersionString[];

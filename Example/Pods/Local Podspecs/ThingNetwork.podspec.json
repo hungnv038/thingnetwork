@@ -1,9 +1,9 @@
 {
   "name": "ThingNetwork",
   "version": "0.1.0",
-  "summary": "A short description of ThingNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hungnv038/ThingNetwork",
+  "summary": "A abstract layer of AFNetworking library",
+  "description": "When develop new ios project, we always need call api to server to get data, but always take time to find and develop classes to do it . This lib created to resolve that issues. The idea is make ready to use lib which can use immediatly when we need",
+  "homepage": "https://github.com/hungnv038/thingnetwork",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "hungnv038": "hungnv038@gmail.com"
   },
   "source": {
-    "git": "https://github.com/hungnv038/ThingNetwork.git",
+    "git": "https://github.com/hungnv038/thingnetwork.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "ThingNetwork/Classes/**/*"
+  "source_files": "ThingNetwork/Classes/**/*.{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ]
+  }
 }

@@ -19,16 +19,16 @@ Pod::Spec.new do |s|
 
   s.description      = "When develop new ios project, we always need call api to server to get data, but always take time to find and develop classes to do it . This lib created to resolve that issues. The idea is make ready to use lib which can use immediatly when we need"
 
-  s.homepage         = 'https://github.com/hungnv038/ThingNetwork'
+  s.homepage         = 'https://github.com/hungnv038/thingnetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hungnv038' => 'hungnv038@gmail.com' }
-  s.source           = { :git => 'https://github.com/hungnv038/ThingNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hungnv038/thingnetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
-  s.source_files = 'ThingNetwork/Classes/**/*'
+  s.source_files = 'ThingNetwork/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ThingNetwork' => ['ThingNetwork/Assets/*.png']
