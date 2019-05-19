@@ -15,10 +15,10 @@
 {
     // Override point for customization after application launch.
     
-    [TTHttpClient initDevUrl:@"https://dev.com/" StagingUrl:@"https://staging.com/" ProUrl:@"https://pro.com/"];
-    [TTHttpClient setEnvMode:STAGING];
-    
-    TTHttpClient * httpClient = TTHttpClient.sharedInstance;
+    [TTHttpClient initDevUrl:@"https://jsonplaceholder.typicode.com/"
+                  StagingUrl:@"https://jsonplaceholder.typicode.com/staging/"
+                      ProUrl:@"https://jsonplaceholder.typicode.com/pro/"];
+    [TTHttpClient setEnvMode:PRODUCTION];
     return YES;
     
 }

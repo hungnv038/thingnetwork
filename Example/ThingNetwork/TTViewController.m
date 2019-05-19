@@ -7,6 +7,7 @@
 //
 
 #import "TTViewController.h"
+#import "TTExampleNetwork.h"
 
 @interface TTViewController ()
 
@@ -19,6 +20,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+- (IBAction)btnClick:(id)sender {
+    TTExampleNetwork *network = [[TTExampleNetwork alloc] init];
+    [network getExampleData:^(id  _Nonnull responseObject) {
+        NSLog(@"%@", responseObject);
+    } failure:^(NSString * _Nonnull failureReason, NSInteger statusCode) {
+        NSLog(@"%@", failureReason);
+    }];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
