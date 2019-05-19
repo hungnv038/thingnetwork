@@ -18,7 +18,6 @@
 		1BEE498094AE1C76D861937F57952D82 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FAD440B509594346097E80F6560913 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2063F68064C97967E99FB4D7A8472DA5 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9930F214721FD5B60BC2F1E318D58112 /* MBProgressHUD.framework */; };
 		2BC404B3F3000047BC4685542C00669B /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C77F01C30D163BBA0F8A1E3227C13B48 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		307238E0669F0087D7C1672AE4C39624 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 271790F3C5935632B42CAC877DC92C34 /* ReplaceMe.m */; };
 		30F66CA1AF05BF898F62578A70221ED5 /* TTHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1ACB47206127645D156BC4B7FB5A27 /* TTHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38936AFA5A682BFC8B965E3FE3BD3E20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1384FBDCC73F577691A0BBE8A8BC4E18 /* CoreGraphics.framework */; };
 		3B798437390269B42E23AE26F778843F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D09F74E3AD12BE42E98F798AB2792A /* UIImageView+AFNetworking.m */; };
@@ -121,7 +120,7 @@
 		0832E907F08507A88E31008D8C854547 /* Pods-ThingNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThingNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
 		0915DDE06290757DFCFF43CD8F3A49C9 /* Pods-ThingNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThingNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B44131585C1A27CB3504398DC31C0B3 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		0E50F2A6482A1DBBB825799AEB0A49D4 /* Pods_ThingNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThingNetwork_Tests.framework; path = "Pods-ThingNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E50F2A6482A1DBBB825799AEB0A49D4 /* Pods_ThingNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1125790DE70A331F53358920BE101DB1 /* Pods-ThingNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThingNetwork_Example.modulemap"; sourceTree = "<group>"; };
 		1384FBDCC73F577691A0BBE8A8BC4E18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		145CBCB5F2728EFA0EA0D9B56F436E2E /* ThingNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingNetwork-prefix.pch"; sourceTree = "<group>"; };
@@ -134,9 +133,8 @@
 		261881DDA55D5552A887CE10EA7EFB31 /* Pods-ThingNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2641080F2D768F806476F3AD658DDBD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		26747B192CC6D51AB475794A2F2E9A4E /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		271790F3C5935632B42CAC877DC92C34 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ThingNetwork/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		2AB4A80B9C9483E8A1A544D7B2DE5A74 /* Pods-ThingNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
-		2D21D1AE50106E86565BAF50676753FC /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D21D1AE50106E86565BAF50676753FC /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D97F105C531BE05B37E19F191160B54 /* Pods-ThingNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThingNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
 		2F4FB949244122D04A86DFC7A4048CC0 /* Pods-ThingNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThingNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33810BC9CC8F7EB87C88EE17195E5BB0 /* Pods-ThingNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThingNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -160,17 +158,17 @@
 		7219A4813178DBAEBCA27EF97A0472ED /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		72CE7FBB48C4755B1270E10A1685C390 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		76CA2F4D1D2D3F2B4C471D4B2CFFE024 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		7728626BD5555742750FA5A975FCBF98 /* Pods_ThingNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThingNetwork_Example.framework; path = "Pods-ThingNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7728626BD5555742750FA5A975FCBF98 /* Pods_ThingNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B857B40141CCA5A81594495BB52F28 /* ThingNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingNetwork-umbrella.h"; sourceTree = "<group>"; };
 		7B07CB5A7576BA2AE110F09279BD1F1A /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		7F018BAA584857BDE7850B00373D4051 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F018BAA584857BDE7850B00373D4051 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8505E0541BFAC5DACCEE183BB02E13D9 /* Pods-ThingNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		85FAD440B509594346097E80F6560913 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		865FEDDE0C447E27FA1F8D780AF7BEE2 /* ThingNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThingNetwork-dummy.m"; sourceTree = "<group>"; };
-		9726932F3E9A073B2C1DD88EDC089301 /* ThingNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThingNetwork.framework; path = ThingNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9726932F3E9A073B2C1DD88EDC089301 /* ThingNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThingNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9930F214721FD5B60BC2F1E318D58112 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7E9915D8354FE4AFE243120D83B6B8 /* ThingNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThingNetwork.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE3CA926573A9E5DD68377253D19FB1 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		9FF1C8559D5FF75752164667E3985DF2 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		A0D09F74E3AD12BE42E98F798AB2792A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -192,7 +190,7 @@
 		D37F5534C833F0D89AC0B65BCA502EC1 /* Pods-ThingNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D584E4E48D6F0CF0E0BB689395937535 /* Pods-ThingNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThingNetwork_Example-dummy.m"; sourceTree = "<group>"; };
 		DA1ACB47206127645D156BC4B7FB5A27 /* TTHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTHttpClient.h; path = ThingNetwork/Classes/TTHttpClient.h; sourceTree = "<group>"; };
-		DC4292EA8454B99DFA5DA94705B9B0AD /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4292EA8454B99DFA5DA94705B9B0AD /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE5BEAB2C2AFCAA2E6CF57AE9570974 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		E5C7C4720F0E1D99BE0806E75E2DF67B /* Pods-ThingNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E63AC8E65E40CFD51730D14A4C8FB02A /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
@@ -201,10 +199,10 @@
 		EC697E24AF79BF1897540B5CD3F8EF0A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		F20BDFC5292EE129828F19C00A7F7B21 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F22975816E78D4F40471490C5A7613BF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		F24EB8197A9F4F5624C8104634D723FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F24EB8197A9F4F5624C8104634D723FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F724E56AFC4532C87D5213173F9B6FD4 /* Pods-ThingNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThingNetwork_Tests.modulemap"; sourceTree = "<group>"; };
 		FB75B815967FA2F63A47DEA9904E2DDD /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		FBBE28ED099B6C212F6DCBED580E886D /* ThingNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThingNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBBE28ED099B6C212F6DCBED580E886D /* ThingNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThingNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC0C02DEC48A62264A1602551D762534 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -267,7 +265,6 @@
 				B8DEE2EF97ED5574E0104951EE292D36 /* MBProgressHUD.m */,
 				84A5D4D882038E7FF80728632EAC3D1B /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -432,7 +429,6 @@
 		D2EE83B13D66D3AB1885679743C7ECDD /* ThingNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				271790F3C5935632B42CAC877DC92C34 /* ReplaceMe.m */,
 				DA1ACB47206127645D156BC4B7FB5A27 /* TTHttpClient.h */,
 				34ECA737ADB90B2ACFECB84A005E60D3 /* TTHttpClient.m */,
 				C344D2780408CE02722712957442B319 /* Pod */,
@@ -453,7 +449,6 @@
 				69ED9E5E71C877420CB9D0F664B946EC /* Support Files */,
 				EE75D5387DC91A15ED1690B4ADC68620 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -700,6 +695,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -782,7 +778,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307238E0669F0087D7C1672AE4C39624 /* ReplaceMe.m in Sources */,
 				68F9AFD78409F95ED70BAA41CA44E4EC /* ThingNetwork-dummy.m in Sources */,
 				A89695718AFC09A1BDC44425CB4340B5 /* TTHttpClient.m in Sources */,
 			);
@@ -1258,8 +1253,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

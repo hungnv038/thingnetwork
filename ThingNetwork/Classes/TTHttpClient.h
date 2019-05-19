@@ -21,7 +21,16 @@ typedef void (^NetworkManagerFailure)(NSString *failureReason, NSInteger statusC
 + (TTHttpClient *)sharedInstance;
 + (void)initDevUrl:(NSString *)dev StagingUrl:(NSString*)staging ProUrl:(NSString*)pro;
 + (void)setEnvMode:(ENV_MODES)mode;
-@property (nonatomic, strong) MBProgressHUD *progressHUD;
+
+-(void)get:(nonnull NSString *)api progress:(BOOL)showProgress parameters:(nullable id)params success:(NetworkManagerSuccess)successFunc failure:(NetworkManagerFailure)failureFunc;
+
+-(void)post:(nonnull NSString *)api progress:(BOOL)showProgress parameters:(nullable id)params success:(NetworkManagerSuccess)successFunc failure:(NetworkManagerFailure)failureFunc;
+
+-(void)put:(nonnull NSString *)api progress:(BOOL)showProgress parameters:(nullable id)params success:(NetworkManagerSuccess)successFunc failure:(NetworkManagerFailure)failureFunc;
+
+-(void)del:(nonnull NSString *)api progress:(BOOL)showProgress parameters:(nullable id)params success:(NetworkManagerSuccess)successFunc failure:(NetworkManagerFailure)failureFunc;
+
+@property (nonatomic, strong, nullable) MBProgressHUD *progressHUD;
 
 @end
 
